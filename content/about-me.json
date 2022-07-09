@@ -1,0 +1,80 @@
+{
+  "summary": [
+    "Seven Years of experience as Web UI Developer/Technical Lead/Senior Software Developer.",
+    "Created/developed product design, design objectives, Usability Objective, sketches, user flow diagrams, wireframes for external (web) and internal (client/server) applications, mobile application, test web sites.",
+    "Worked directly with cross-functional teams of Business Stakeholders, Analysts, Architects, Developers, Web/Graphic designers, Copywriters, Product Managers, Visual Designers, and Technical Architect, end users to determine user interface needs and implement innovative UI applications.",
+    "Worked on Web based user interface which was created using Node/React/Redux.",
+    "Programmer to develop backend tools to manage website, tools used: HTML, React, Redux, Node, Angular.",
+    "Experience with various libraries like Angular JS, React, etc.",
+    "Worked with major browser bugs in IE, Safari, Google Chrome, and Mozilla Fire Fox, and debugged, tested and validated all issues with proper solutions."
+  ],
+  "skills": [
+    {
+      "title": "Javascript",
+      "data": 1380
+    },
+    {
+      "title": "React",
+      "data": 1240
+    },
+    {
+      "title": "Angular",
+      "data": 600
+    },
+    {
+      "title": "Redux",
+      "data": 1240
+    },
+    {
+      "title": "Node",
+      "data": 1380
+    },
+    {
+      "title": "JAVA",
+      "data": 720
+    },
+    {
+      "title": "HTML",
+      "data": 1380
+    },
+    {
+      "title": "CSS",
+      "data": 1380
+    },
+    {
+      "title": "TypeScript",
+      "data": 1040
+    },
+    {
+      "title": ".NET",
+      "data": 550
+    },
+    {
+      "title": "AWS",
+      "data": 550
+    },
+    {
+      "title": "Jenkins",
+      "data": 843
+    },
+    {
+      "title": "WebdriverIO",
+      "data": 1380
+    },
+    {
+      "title": "CucumberJS",
+      "data": 1145
+    }
+  ],
+
+  "certifications": [
+    {
+      "title": "AWS Certified Cloud Practioner",
+      "caption": "Amazon Web Services (AWS)",
+      "duration": "Issued July 2021, Expires July 2024",
+      "icon": "https://media-exp1.licdn.com/dms/image/C560BAQE_4UwvNNtNTQ/company-logo_100_100/0/1640205885683?e=1663804800&v=beta&t=dJOGQVV-AyuVB41MaXvrgiNy0-a50_vtxbpZ8_ouv78",
+      "alt": "AWS logo",
+      "creds": "https://www.credly.com/badges/bd6188e3-7263-48c6-bfb8-47a02123fde8?source=linked_in_profile"
+    }
+  ]
+}

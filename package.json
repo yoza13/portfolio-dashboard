@@ -1,0 +1,37 @@
+{
+  "name": "nextapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "export": "next build && next -v && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.7",
+    "@types/react": "^18.0.1",
+    "apexcharts": "^3.35.3",
+    "file-loader": "^6.2.0",
+    "next": "^11.1.4",
+    "react": "^17.0.2",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^3.1.4",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.3",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.1",
+    "typescript": "4.7.4"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "header": "Travelers",
+    "subHeader": "Hartford",
+    "id": "trav",
+    "altImage": "Travelers",
+    "role": "Senior Software Engineer - Full Stack",
+    "duration": "July 2021 - Present",
+    "location": "Hartford, CT (Remote Position)",
+    "Responsibilities": [
+      "Responsible for meeting expectations and deliverables on time and in high quality.",
+      "React developer working with GraphQL and GatsbyJs to create a website to display company-wide sustainability information given to the Users",
+      "Responsible for managing existing angular application for Payments and also migrating that to react apart from creating new features"
+    ]
+  },
+  {
+    "header": "American Express",
+    "subHeader": "New York City",
+    "id": "amex2",
+    "altImage": "Amex",
+    "role": "Lead Software Engineer - Full Stack",
+    "duration": "February 2018 - July 2021",
+    "location": "New York City, NY",
+    "Responsibilities": [
+      "Develop new user-facing features",
+      "Build reusable code and libraries for future use",
+      "Optimize application for maximum speed and scalability"
+    ]
+  },
+  {
+    "header": "American Express",
+    "subHeader": "New York City",
+    "id": "amex1",
+    "altImage": "Amex",
+    "role": "Software Engineer - Front End",
+    "duration": "June 2015- February 2018",
+    "location": "New York City, NY",
+    "Responsibilities": [
+      "Creation of Restful API's in Node.js that could be used by our front end credit card-application.",
+      "Assure that all user input is validated before submitting to back-end. Collaborate with other team members and stakeholders",
+      "Worked directly with cross-functional teams of Business  Stakeholders, Architects, Developers and Technical Architect in an Agile fashion.",
+      "Participated in meetings with the end-clients to develop layout, color scheme for the web page and implemented them with the help of HTML5, CSS3 and JavaScript",
+      "Built Web pages that are more user-interactive using JSON, Angular JS, JavaScript, React/Redux, Node."
+    ]
+  },
+  {
+    "header": "ADP",
+    "subHeader": "Parsipanny",
+    "id": "adp",
+    "altImage": "ADP",
+    "role": "Web / UI Developer",
+    "duration": "January 2015- April 2018",
+    "location": "Parsipanny, NJ",
+    "Responsibilities": [
+      "Designed and implemented the User Interface for WorkForce Now using JavaScript, HTML5, XHTML, XML, CSS3, JSP, AJAX and MySQL.",
+      "Built Web pages that are more user-interactive using jQuery plugins for Drag and Drop,Auto Complete, JSON, Angular JS, JavaScript, Bootstrap.",
+      "Successfully implemented Auto Complete/Auto Suggest functionality using Ajax, JQuery, DHTML, Web Service call and JSON."
+    ]
+  },
+  {
+    "header": "Apple",
+    "subHeader": "Sunnyvale",
+    "id": "apple",
+    "altImage": "apple",
+    "role": "UI Developer",
+    "duration": "June 2014- December 2014",
+    "location": "Sunnyvale, CA",
+    "Responsibilities": [
+      "Responsible for meeting expectations and deliverables on time and in high quality.",
+      "Responsible for the development of web applications and components.",
+      "Responsible for the design and development of web pages, graphics, multimedia, GUIs used by Internal Apple Employees using JAVA, HTML4, jQuery and D3.js alongwith Bootstrap."
+    ]
+  }
+]
