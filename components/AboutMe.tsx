@@ -22,7 +22,7 @@ import AppContext from "../AppContext";
 import AboutMeDetails from "../content/about-me.json";
 import dynamic from "next/dynamic";
 
-const Resume_Pdf = require("../documents/Yash_Oza_Resume.pdf").default;
+//const Resume_Pdf = require("../documents/Yash_Oza_Resume.pdf").default;
 
 const Chart = dynamic(() => import("react-apexcharts"), {
   ssr: false,
@@ -197,7 +197,7 @@ export const AboutMe: React.FC = () => {
       <Stack className={classes.downloadBlock}>
         <a
           download="Yash_Oza"
-          href={Resume_Pdf}
+          href="Yash_Oza_Resume.pdf"
           className={classes.downloadLinks}
         >
           &#9733; &nbsp;Download Resume as PDF &nbsp;&#9733;
