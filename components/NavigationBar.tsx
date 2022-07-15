@@ -55,7 +55,7 @@ export const NavigationBar: React.FC = () => {
       <Box onClick={() => setOpenDrawer(false)}>
         <List>
           {leftNavItems.map((item, index) => (
-            <>
+            <React.Fragment key={item.title + index}>
               {item.page ? (
                 <ListItem key={item.title + index}>
                   <ListItemButton
@@ -83,7 +83,7 @@ export const NavigationBar: React.FC = () => {
                   <ListItemText primary={item.title} sx={{ pl: "16px" }} />
                 </ListItem>
               )}
-            </>
+            </React.Fragment>
           ))}
         </List>
       </Box>
