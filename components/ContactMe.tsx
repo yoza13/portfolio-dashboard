@@ -43,14 +43,18 @@ export const ContactMe: React.FC = () => {
   const callApi = async (data: callApiProps) => {
     setIsLoading(true);
     const { subject, from, body } = data;
-    const { data: sendEmailData } = await axios.post(
-      process.env.SEND_EMAIL_URL,
-      { subject, body }
-    );
-    setIsLoading(false);
-    resetField("subject");
-    if (sendEmailData === null) {
-      setMessage("success");
+    if (process.env.SEND_EMAIL_URL) {
+      const { data: sendEmailData } = await axios.post(
+        process.env.SEND_EMAIL_URL,
+        { subject, body, from }
+      );
+      setIsLoading(false);
+      resetField("subject");
+      if (sendEmailData.message === "MAIL SENT SUCCESSFULLY!!") {
+        setMessage("success");
+      }
+    } else {
+      throw new Error("SEND_EMAIL_URL not defined");
     }
   };
   return (

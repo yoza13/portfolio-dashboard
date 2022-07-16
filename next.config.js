@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     domains: ["media-exp1.licdn.com"],
   },
+  env: {
+    SEND_EMAIL_URL: process.env.SEND_EMAIL_URL,
+  },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.(pdf)$/,
