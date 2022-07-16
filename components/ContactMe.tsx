@@ -25,7 +25,7 @@ import axios from "axios";
 
 interface callApiProps {
   subject: string;
-  from?: string;
+  from: string;
   body: string;
 }
 
@@ -44,7 +44,7 @@ export const ContactMe: React.FC = () => {
     setIsLoading(true);
     const { subject, from, body } = data;
     const { data: sendEmailData } = await axios.post(
-      "https://fnc7us5mwh.execute-api.us-east-1.amazonaws.com/staging/contact-me",
+      process.env.SEND_EMAIL_URL,
       { subject, body }
     );
     setIsLoading(false);
@@ -149,7 +149,7 @@ export const ContactMe: React.FC = () => {
                 );
               }}
             ></Controller>
-            {/* <Controller
+            <Controller
               name="from"
               control={control}
               rules={{
@@ -174,7 +174,7 @@ export const ContactMe: React.FC = () => {
                   />
                 );
               }}
-            ></Controller> */}
+            ></Controller>
             <Controller
               name="body"
               control={control}
